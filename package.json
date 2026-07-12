@@ -1,0 +1,27 @@
+{
+  "name": "asc",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Turn text or an image into copy-paste ASCII art, in the browser.",
+  "author": "adam-ctrlc (https://github.com/adam-ctrlc)",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^2.1.5",
+    "@tailwindcss/postcss": "^4.3.2",
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^26.1.1",
+    "typescript": "~6.0.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.3.0",
+    "figlet": "^1.11.0",
+    "tailwindcss": "^4.3.2"
+  }
+}
